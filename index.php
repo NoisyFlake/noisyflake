@@ -5,8 +5,8 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Web and iOS development">
+    <meta name="author" content="NoisyFlake">
 
     <title>NoisyFlake</title>
 
@@ -22,7 +22,6 @@
 
   <body id="page-top">
 
-    <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">NoisyFlake</a>
@@ -51,7 +50,7 @@
           <h1 id="homeHeading">NoisyFlake</h1>
           <hr>
           <p>I'm a 21 year old developer who just started creating tweaks for iOS.<br>
-          Currently I have only one tweak released, but expect more to follow soon!</p>
+          Make sure to check out my latest tweak - SmartLowPower!</p>
           <a class="btn btn-primary btn-xl js-scroll-trigger" href="#tweaks">View my Tweaks</a>
         </div>
       </div>
@@ -68,12 +67,24 @@
       </div><br>
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 col-md-24 text-center">
+          <div class="col-lg-6 col-md-12 text-center">
             <div class="service-box">
               <i class="fa fa-4x fa-power-off text-primary sr-icons"></i>
               <h3>NoLSPowerDown</h3>
-              <p class="text-muted">Prevent shutdown on lockscreen</p><br>
-              <small class="text-muted"><a href="http://cydia.saurik.com/package/com.noisyflake.nolspowerdown/">BigBoss Repo</a>, Free</small>
+              <p class="text-muted">Prevent shutdown on lockscreen</p><br><br>
+
+              <p>iOS 7 - 10</p><br>
+              <small class="text-muted"><a href="http://cydia.saurik.com/package/com.noisyflake.nolspowerdown/">BigBoss Repo</a>, Free</small><br>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 text-center">
+            <div class="service-box">
+              <i class="fa fa-4x fa-battery-3 text-primary sr-icons"></i>
+              <h3>SmartLowPower</h3>
+              <p class="text-muted">Automate Low Power and Airplane mode activation to save battery</p><br>
+
+              <p>iOS 9 - 10</p><br>
+              <small class="text-muted"><a href="http://cydia.saurik.com/package/com.noisyflake.smartlowpower/">BigBoss Repo</a>, Free</small><br>
             </div>
           </div>
         </div>
