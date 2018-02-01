@@ -1,0 +1,17 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+File hashes (SHA256):
+LICENSE : da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768  -
+README-windows.txt : c9660e0352397f6018b5db1692cafeb247de90dcfe9a73d4424cfdd0ec31ead6  -
+cacert.pem : cc7c9e2d259e20b72634371b146faec98df150d18dd9da9ad6ef0b2deac2a9d3  -
+latest-sha-tsschecker.txt : 187be49b6d126183113a24dfef0eacb0ae31699e03dc71a80e487fc774659823  -
+tsschecker_linux : 8496637ef6e0f8662e0633aecae648f87c26ae88127afa19037c32d58c6a9b5c  -
+tsschecker_macos : a6a2531f0916d26eccb84c4d3b01ab9b492ec606c94180cfe99505d38c691ff6  -
+-----BEGIN PGP SIGNATURE-----
+
+iHUEAREIAB0WIQTyGEKCyeitNJLqCQRrOER56n/R4AUCWdE15QAKCRBrOER56n/R
+4PbpAQDhb0Hc5F3SwzKQvDvgLhk7LtyzG21bwAFBXRXeN/34CAD/VqrcBc9MDxW+
+v0lAkvng1I38L+gQQs/PR+jNJMW16KM=
+=aPBP
+-----END PGP SIGNATURE-----
