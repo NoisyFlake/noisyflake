@@ -5094,9 +5094,12 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 25px;
         margin-top: 1.3rem;
         z-index: 999;}
+        .qt-gridstackCarousel-container .qt-gridstackCarousel .carousel-item .buy a {
+        	z-index: 99999; }
         .qt-gridstackCarousel-container .qt-gridstackCarousel .carousel-item .buy i {
         	color: white;
-        	margin-right: 10px;}
+        	margin-right: 10px;
+        	z-index: 99999;}
         	.qt-gridstackCarousel-container .qt-gridstackCarousel .carousel-item .buy i:hover {
         	color: #FF1744; }
   .qt-gridstackCarousel-container .nav {
