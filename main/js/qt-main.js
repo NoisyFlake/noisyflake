@@ -19,11 +19,11 @@
  * 		==================================================
  * 		01. Helpers
  * 		02. Theme functions
- *   	03. qwLoadedTheme: Functions to execute once the contents are fully loaded 
+ *   	03. qwLoadedTheme: Functions to execute once the contents are fully loaded
  *  	04. qwInitTheme
  *  	05. Page Ready Trigger
- *  
- *  
+ *
+ *
  **/
 
 
@@ -38,10 +38,10 @@
 	 *
 	 * 	01. Helpers
 	 *
-	 * 
+	 *
 	 ====================================================================*/
 
-	
+
 	// =================================================================
 	//  Check mobile devices
 	// =================================================================
@@ -77,7 +77,7 @@
 		// if there's no images, just return an already resolved promise
 		if (!$imgs.length) {return $.Deferred().resolve().promise();}
 		// for each image, add a deferred object to the array which resolves when the image is loaded (or if loading fails)
-		var dfds = [];  
+		var dfds = [];
 		$imgs.each(function(){
 			var dfd = $.Deferred();
 			dfds.push(dfd);
@@ -98,16 +98,16 @@
 	 *
 	 * 	02. Theme functions
 	 *
-	 * 
+	 *
 	 ====================================================================*/
 
 	/**====================================================================
 	*
-	* 
+	*
 	*  	Gridstack Materialize Carousel
 	*	Materializecss carousel http://materializecss.com/media.html#two!
-	*  
-	* 
+	*
+	*
 	====================================================================*/
 
 	$.fn.gridstackCarousel = function(){
@@ -138,7 +138,7 @@
 			}
 			if(QTvpadding !== 0){
 				that.css({"margin-top":QTvpadding,"margin-bottom":QTvpadding});
-			} 
+			}
 			var atts = {
 				time_constant: parseInt(QTtime_constant, 10),
 				dist: parseInt(QTdist, 10),
@@ -158,14 +158,14 @@
 				that.carousel("next");
 			});
 
-
 			that.find(".carousel-item").on("mouseenter touchstart", function(e){
+				console.log("x");
 				var itemElem = $(this);
 				itemElem.addClass("active");
 				if($("body").hasClass("mobile")){
 					setTimeout(
-					function(){ 
-						itemElem.removeClass("active"); 
+					function(){
+						itemElem.removeClass("active");
 					} ,  3000);
 					that.find("a").on("touchstart", function(e){
 						window.location.href = $(this).attr("href");
@@ -180,17 +180,17 @@
 
 	/**====================================================================
 	*
-	* 
+	*
 	*  	Slick gallery
-	*  
-	* 
+	*
+	*
 	====================================================================*/
 
 	$.fn.slickGallery = function(){
 		console.log("Slick gallery");
 		$('.qtgallery').slick({
 			// lazyLoad: 'ondemand',
-			
+
 			slidesToScroll: 1,
 			infinite: true,
 			autoplay: false,
@@ -202,7 +202,7 @@
 			// centerPadding: '140px',
 			slidesToShow: 1,
 			responsive: [
-			   
+
 				{
 				  breakpoint: 480,
 				  settings: {
@@ -254,10 +254,10 @@
 
 	/**====================================================================
 	*
-	* 
+	*
 	*  	Parallax
-	*  
-	* 
+	*
+	*
 	====================================================================*/
 	$.fn.qtParallax = function(){
 		$('.parallax').parallax();
@@ -266,7 +266,7 @@
 	/**====================================================================
 	*
 	*  Particles.js
-	* 
+	*
 	====================================================================*/
 
 	$.fn.qtparticlesJs = function(){
@@ -389,15 +389,15 @@
 
 	/**====================================================================
 	 *
-	 * 
+	 *
 	 *	Smooth scrolling
-	 *	
-	 * 
+	 *
+	 *
 	 ====================================================================*/
 	$.fn.qtSmoothScroll = function(){
 		var body = $("body");
 		body.off("click",'a.qwsmoothscroll');
-		body.on("click",'a.qwsmoothscroll', function(e){     
+		body.on("click",'a.qwsmoothscroll', function(e){
 			e.preventDefault();
 			$('html,body').animate({scrollTop:$(this.hash).offset().top - 70}, 800);
 		});
@@ -409,7 +409,7 @@
 	 *
 	 *  Poly Decor (The polygons used as background in some pages) invented by QantumThemes. Copyright 2016 QantumThemes ( Igor Nardo )
 	 *
-	 * 
+	 *
 	 ====================================================================*/
 
 	$.fn.parallaxPolydecor = function(){
@@ -425,7 +425,7 @@
 			container.wrapInner( "<div class='qt-polydecor-content'></div>");
 			container.append('<div class="decor1"></div><div class="decor2"></div>');
 			element1 = container.find(".decor1"),
-			element2 = container.find(".decor2"); // assigning the object 
+			element2 = container.find(".decor2"); // assigning the object
 			var $this = $(this);
 			var scrollTop = $(window).scrollTop();
 			var offset = $this.offset().top;
@@ -459,20 +459,20 @@
 	/**
 	 *  New modal
 	 */
-	
+
 	$.fn.qwNewModal = function(){
 		var modal = $("#modal1"),
 			frame = $("#modalframe"),
 			thebody = $("body");
 		thebody.append('<a id="modalmask"></a>');
-		
+
 		var modalmask = $("#modalmask");
 		modalmask.hide();
 
 		$(".modal-trigger").on("click",function(e){
 			e.preventDefault();
 			modal.toggleClass("open");
-			
+
 
 			if($(this).attr("data-iframe") !== undefined) {
 				frame.attr("src", $(this).attr("data-iframe"));
@@ -484,9 +484,9 @@
 			}else {
 				modalmask.hide();
 				console.log("hide mask");
-			
-			}				
-				
+
+			}
+
 			return true;
 		});
 		modalmask.on("click", function(){
@@ -499,9 +499,9 @@
 
 
 	/*=================================================================**
-	 * 
 	 *
-	 *	qwInitPage: We put all page initialization functions here, 
+	 *
+	 *	qwInitPage: We put all page initialization functions here,
 	 *	to reinitialize eventually later
 	 *
 	 *
@@ -523,7 +523,7 @@
 
 		$.fn.qwNewModal();
 
-		
+
 
 		//  initialize the modal window of the album
 		// $('.modal-trigger').leanModal();
@@ -567,11 +567,11 @@
 	 *
 	 *	Page Ready Trigger
 	 * 	This needs to call only $.fn.qtInitTheme
-	 * 
+	 *
 	 ====================================================================*/
 
 	jQuery(document).ready(function() {
-		/* If not in debug mode, the console messages are suppressed ============*/		
+		/* If not in debug mode, the console messages are suppressed ============*/
 		if(false ===  $("body").hasClass("qt-debug")) {
 			var console = {};
 			console.log = function(){};
