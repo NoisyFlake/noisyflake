@@ -4856,6 +4856,9 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0; }
   .qt-footer .qt-social {
     font-size: 31px; }
+  .qt-fotter .qt-social i {
+  	margin-right: 15px;
+  }
   .qt-footer .container {
     z-index: 3;
     position: relative; }
@@ -5089,7 +5092,8 @@ h1, h2, h3, h4, h5, h6 {
         margin: 0;
         text-align: center;
         font-size: 25px;
-        margin-top: 1.3rem; }
+        margin-top: 1.3rem;
+        z-index: 999;}
         .qt-gridstackCarousel-container .qt-gridstackCarousel .carousel-item .buy i {
         	color: white;
         	margin-right: 10px;}
@@ -5260,6 +5264,9 @@ h1, h2, h3, h4, h5, h6 {
 /* 12. Responsive media styles
 ================================================================ */
 @media only screen and (max-width: 992px) {
+	.qt-gridstackCarousel-container .qt-gridstackCarousel {
+    height: 450px; }
+
   .button-collapse {
     display: inline-block;
     float: left; }
@@ -5281,13 +5288,13 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 0.8rem; }
 
   h4 {
-    font-size: 1.5rem; }
+    font-size: 1.0rem; }
 
   h3 {
     font-size: 2.25rem; }
 
   h2 {
-    font-size: 3.38rem; }
+    font-size: 2.38rem; }
 
   h1 {
     font-size: 5rem; }
