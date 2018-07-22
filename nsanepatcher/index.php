@@ -158,7 +158,7 @@
         <div class="six wide right floated column">
         	<div id="download">
           	<a href="download.php" class="ui center aligned massive green button" id="downloadButton">Download</a><br>
-          	<span id="versionNumber">v1.0.0</span>
+          	<span id="versionNumber">v1.0.0 - 317MB</span>
         	</div>
         </div>
       </div>
