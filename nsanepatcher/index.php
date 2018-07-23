@@ -173,7 +173,8 @@
         </div>
       </div>
     </div>
-		<div id="footer">Created with &#10084; by <a href="http://reddit.com/u/NoisyFlake">NoisyFlake</a></div>
+		<div id="footer">Created with &#10084; by <a href="http://reddit.com/u/NoisyFlake">NoisyFlake</a><br>
+      Special thanks to <a href="https://soundcloud.com/joshmancell">Josh Mancell</a> for his amazing work</div>
   </div>
 
 </div>
