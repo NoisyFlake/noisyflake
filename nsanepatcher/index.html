@@ -118,13 +118,17 @@
     }
 
     #footer {
-    	margin-top: 80px;
+    	margin-top: 30px;
     	color: grey;
     	text-align: center;
     }
 
     .justify p {
     	 text-align: justify;
+    }
+
+    #screenshot {
+    	margin-top: 50px;
     }
   </style>
 
@@ -158,7 +162,7 @@
         <div class="six wide right floated column">
         	<div id="download">
           	<a href="download.php" class="ui center aligned massive green button" id="downloadButton">Download</a><br>
-          	<span id="versionNumber">v1.0.1 - 317MB</span>
+          	<span id="versionNumber">v1.0.2 - xxxMB</span>
         	</div>
         </div>
       </div>
@@ -169,20 +173,27 @@
         	<br>
           <h3 class="ui header">Things you should know</h3>
           <p>You can select each level that you want to patch separately or patch everything at once. If you install the pre-console version, note that no tracks will be overwritten that don't exist in the pre-console version. This means if you patch the PS1 version first and thereafter the pre-console version, you will hear pre-console where available and PS1 where not.</p>
+          <p>Patching takes a while due to the nature of the game files, expect about 20 seconds for each level. That means patching all three games will take 25-30 minutes. This is because each time the whole level has to be extracted and then repacked.
           <p>A few tracks don't loop correctly because they are too long. There's nothing we can really do about it.</p>
-          <p>Most of the tracks are quieter than the N. Sane ones. It's recommended to increase the overall volume and set the ingame SFX to 4 for the best experience.
+          <p>It's recommended to set the music volume to 10 and Speech/SFX volume to 5 for the best experience.
         </div>
         <div class="six wide right floated column" id="changelog">
         	<br>
           <h3 class="ui header">Changelog</h3>
+          <p><strong>v1.0.2</strong><br>
+          	• Normalized the volume on all tracks<br>
+          	• Fixed broken Toxic Waste<br>
+          	• Fixed broken Tawna Bonus<br>
+          	• Added support for Aku Aku</p>
           <p><strong>v1.0.1</strong><br>
-          	- Fixed Crash 3 Time Twister crash<br>
-          	- Added support for the Crash 2 Warp Room</p>
+          	• Fixed Crash 3 Time Twister crash<br>
+          	• Added support for the Crash 2 Warp Room</p>
           <p><strong>v1.0.0</strong><br>
-          	- Initial release</p>
+          	• Initial release</p>
         </div>
       </div>
     </div>
+    <img class="ui centered image" src="screenshot.png" id="screenshot">
 		<div id="footer">Created with &#10084; by <a href="http://reddit.com/u/NoisyFlake">NoisyFlake</a><br>
       Special thanks to <a href="https://soundcloud.com/joshmancell">Josh Mancell</a> for his amazing work</div>
   </div>
