@@ -166,6 +166,7 @@
         <div class="eight wide column justify">
         	<br>
           <h3 class="ui header">Things you should know</h3>
+          <p style="color: red">Make sure to uncheck 'The Time Twister' in Crash 3 before patching or your game might crash. A fix for this will be out soon.</p>
           <p>You can select each level that you want to patch separately or patch everything at once. If you install the pre-console version, note that no tracks will be overwritten that don't exist in the pre-console version. This means if you patch the PS1 version first and thereafter the pre-console version, you will hear pre-console where available and PS1 where not.</p>
           <p>A few tracks don't loop correctly because they are too long. There's nothing we can really do about it.</p>
           <p>Most of the tracks are quieter than the N. Sane ones. It's recommended to increase the overall volume and set the ingame SFX to 4 for the best experience.
