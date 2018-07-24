@@ -7,7 +7,7 @@ fclose($f);
 
 // header("Location: dl/nsanepatcher-v1.0.0.zip");
 $filename = "nsanepatcher-v1.0.2.zip";
+header("Content-Length: " . filesize('dl/' . $filename));
 header("Content-disposition: attachment; filename=".$filename."");
 header('Content-type: application/zip');
-header("Content-Length: " . filesize('dl/' . $file_url));
 readfile("dl/" . $filename);
