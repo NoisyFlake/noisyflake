@@ -9,4 +9,5 @@ fclose($f);
 $filename = "nsanepatcher-v1.0.2.zip";
 header("Content-disposition: attachment; filename=".$filename."");
 header('Content-type: application/zip');
+header("Content-Length: " . filesize('dl/' . $file_url));
 readfile("dl/" . $filename);
