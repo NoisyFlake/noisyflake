@@ -128,8 +128,9 @@
     }
 
     #screenshot {
-    	margin-top: 50px;
+    	margin-left: 0px;
     }
+
   </style>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -162,7 +163,7 @@
         <div class="six wide right floated column">
         	<div id="download">
           	<a href="download.php" class="ui center aligned massive green button" id="downloadButton">Download</a><br>
-          	<span id="versionNumber">v1.1.4 - 3MB</span>
+          	<span id="versionNumber">v1.2.0 - 3MB</span>
         	</div>
         </div>
       </div>
@@ -174,18 +175,27 @@
           <h3 class="ui header">Things you should know</h3>
           <p>You can select each level that you want to patch separately or patch everything at once. If you install the pre-console version, any track that is not available as a pre-console version will be left unaltered.</p>
           <p>Patching takes a while due to the nature of the game files, expect about 20 seconds for each level. That means patching all three games will take 25-30 minutes. This is because each time the whole level has to be extracted and then repacked.
-          <p>A few tracks don't loop correctly because they are too long. There's nothing we can really do about it.</p>
-          <p>It's recommended to set the music volume to 10 and Speech/SFX volume to 5 for the best experience.
+          <p>The PSX tracks have a higher quality than the pre-console tracks.</p>
+          <p>A few pre-console tracks don't loop correctly because they are too long. There's nothing we can really do about it.</p>
+          <p>If you're using the pre-console mixes, it's recommended to set the music volume to 10 and Speech/SFX volume to 7-8 for the best experience.
+
+
+        	<h3 class="ui header">Screenshot</h3>
+					<img class="ui centered image" src="screenshot.png" id="screenshot">
         </div>
+
+
         <div class="seven wide right floated column" id="changelog">
         	<br>
           <h3 class="ui header">Changelog</h3>
+          <p><strong>v1.2.0</strong><br>
+          	• Replace low-quality PSX version with high quality stereo soundtrack (thanks to NillsimeN)</p>
           <p><strong>v1.1.4</strong><br>
           	• Reduce the initial download size from 600MB to 3MB (the rest will be downloaded in the patcher)<br>
-          	• Fix broken auto-updater<br>
+          	• Fix broken auto-updater</p>
           <p><strong>v1.1.0</strong><br>
           	• Added Auto-Updater<br>
-          	• Support patching PSX + Pre-Console together<br>
+          	• Support patching PSX + Pre-Console together</p>
           <p><strong>v1.0.2</strong><br>
           	• Normalized the volume on all tracks<br>
           	• Fixed broken Toxic Waste<br>
@@ -197,9 +207,9 @@
         </div>
       </div>
     </div>
-    <img class="ui centered image" src="screenshot.png" id="screenshot">
-		<div id="footer">Created with &#10084; by <a href="http://reddit.com/u/NoisyFlake">NoisyFlake</a><br>
-      Special thanks to <a href="https://soundcloud.com/joshmancell">Josh Mancell</a> for his amazing work</div>
+		<div id="footer">Created with &#10084; by <a href="http://reddit.com/u/NoisyFlake">NoisyFlake</a><br><br>
+      Special thanks to <a href="https://soundcloud.com/joshmancell">Josh Mancell</a> for his amazing work<br>
+      High-Quality PSX soundtrack by <a href="http://reddit.com/u/NillsimeN">NillsimeN</a></div>
   </div>
 
 </div>
