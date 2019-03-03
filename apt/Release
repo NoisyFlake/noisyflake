@@ -1,0 +1,7 @@
+Origin: NoisyFlake
+Label: NoisyFlake
+Suite: stable
+Version: 1.0
+Architectures: iphoneos-arm
+Components: main
+Description: It's a repository, no need for a description though.

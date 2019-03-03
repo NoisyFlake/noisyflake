@@ -47,11 +47,10 @@
     <header class="masthead" id="about">
       <div class="header-content">
         <div class="header-content-inner">
-          <h1 id="homeHeading">NoisyFlake</h1>
+          <h1 id="homeHeading">NOISYFLAKE</h1>
           <hr>
-          <p>I'm a 21 year old developer who just started creating tweaks for iOS.<br>
-          Make sure to check out my latest tweak - SmartLowPower!</p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#tweaks">View my Tweaks</a>
+          <p>23y/o software developer</p>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#tweaks">View my iOS Tweaks</a>
         </div>
       </div>
     </header>
@@ -67,27 +66,42 @@
       </div><br>
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 col-md-12 text-center">
+          <div class="col-lg-12 col-md-24 text-center">
             <div class="service-box">
-              <i class="fa fa-4x fa-power-off text-primary sr-icons"></i>
-              <h3>NoLSPowerDown</h3>
-              <p class="text-muted">Prevent shutdown on lockscreen</p><br><br>
+              <i class="fa fa-4x fa-share text-primary sr-icons"></i>
+              <h3>ShortcutEnabler</h3>
+              <p class="text-muted">Enable the modern iOS flashlight / camera shortcuts on the lockscreen for all devices</p><br>
 
-              <p>iOS 7 - 10</p><br>
-              <small class="text-muted"><a href="http://cydia.saurik.com/package/com.noisyflake.nolspowerdown/">BigBoss Repo</a>, Free</small><br>
+              <p>iOS 11 - 12</p>
+              <small class="text-muted"><a href="http://cydia.saurik.com/package/com.noisyflake.smartlowpower/">BigBoss Repo</a>, Free</small><br>
             </div>
           </div>
-          <div class="col-lg-6 col-md-12 text-center">
+
+          <div class="col-lg-6 col-md-12 text-center" style="opacity: .4;">
             <div class="service-box">
               <i class="fa fa-4x fa-battery-3 text-primary sr-icons"></i>
               <h3>SmartLowPower</h3>
               <p class="text-muted">Automate Low Power and Airplane mode activation to save battery</p><br>
 
-              <p>iOS 9 - 10</p><br>
+              <p>iOS 9 - 10</p>
               <small class="text-muted"><a href="http://cydia.saurik.com/package/com.noisyflake.smartlowpower/">BigBoss Repo</a>, Free</small><br>
             </div>
           </div>
+
+
+        <div class="col-lg-6 col-md-12 text-center" style="opacity: .4;">
+          <div class="service-box">
+            <i class="fa fa-4x fa-power-off text-primary sr-icons"></i>
+            <h3>NoLSPowerDown</h3>
+            <p class="text-muted">Prevent shutdown on lockscreen</p><br>
+
+            <p>iOS 7 - 10</p>
+            <small class="text-muted"><a href="http://cydia.saurik.com/package/com.noisyflake.nolspowerdown/">BigBoss Repo</a>, Free</small><br>
+          </div>
         </div>
+
+      </div>
+
       </div>
     </section>
 
@@ -103,9 +117,9 @@
         </div><br>
         <div class="row">
           <div class="col-lg-12 mr-auto text-center">
-            <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+            <i class="fa fa-envelope-o fa-3x sr-contact"></i><br><br>
             <p>
-              <a>contact@noisyflake.com</a>
+              <a href="https://www.reddit.com/message/compose/?to=NoisyFlake">/u/NoisyFlake</a>
             </p>
           </div>
         </div>
