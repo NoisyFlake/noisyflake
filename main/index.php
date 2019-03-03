@@ -73,7 +73,7 @@
               <p class="text-muted">Enable the modern iOS flashlight / camera shortcuts on the lockscreen for all devices</p><br>
 
               <p>iOS 11 - 12</p>
-              <small class="text-muted"><a href="http://apt.noisyflake.com/depictions/index.html?id=com.noisyflake.shortcutenabler">My Repo</a>, Free</small><br>
+              <small class="text-muted"><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://apt.noisyflake.com/&package=com.noisyflake.shortcutenabler">My Repo</a>, Free</small><br>
             </div>
           </div>
 
