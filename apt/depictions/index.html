@@ -1,1 +1,88 @@
-<h1>Test Depiciton</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="utf-8">
+		<title>Depiction</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link href="css/semantic.min.css" rel="stylesheet">
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/semantic.min.js"></script>
+
+		<script>
+		function getiOSVersion() {
+			if (/iP(hone|od|ad)/.test(navigator.platform)) {
+				var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/);
+				return [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)];
+			}
+		}
+
+		let iOS = getiOSVersion();
+
+		let url = new URL(window.location.href);
+		let package = url.searchParams.get("id");
+
+		$.get(package + ".html", function( data ) {
+			$("#mainDepiction").html( data );
+
+			if (iOS !== undefined) {
+				if (minVersion == maxVersion) {
+					$('.compatibleVersions').text(maxVersion);
+				} else {
+					$('.compatibleVersions').text(minVersion + " - " + maxVersion);
+				}
+
+				if (iOS[0] >= minVersion && iOS[0] <= maxVersion) {
+					$('#incompatible').hide();
+				} else {
+					$('#compatible').hide();
+				}
+			} else {
+				$('#compatible').hide();
+				$('#incompatible').hide();
+			}
+		});
+	</script>
+</head>
+<body>
+	<div class="ui container">
+		<div class="ui success icon message" id="compatible">
+			<i class="checkmark icon"></i>
+			<div class="content">
+				<div class="header">
+					Compatible with your iOS version!
+				</div>
+				<p>This package is compatible with iOS <span class="compatibleVersions"></span></p>
+			</div>
+		</div>
+		<div class="ui error icon message" id="incompatible">
+			<i class="remove icon"></i>
+			<div class="content">
+				<div class="header">
+					Not compatible with your iOS version!
+				</div>
+				<p>This package is compatible with iOS <span class="compatibleVersions"></span></p>
+			</div>
+		</div>
+
+		<div id="mainDepiction">
+		</div>
+
+		<h4 class="ui header">Support</h4>
+		<div class="ui segment">
+			<div class="ui list">
+				<div class="item">
+					<i class="orange reddit icon"></i>
+					<div class="content">
+						<a href="https://www.reddit.com/message/compose/?to=NoisyFlake">/u/NoisyFlake</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
+
