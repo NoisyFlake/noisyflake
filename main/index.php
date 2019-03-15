@@ -66,18 +66,29 @@
       </div><br>
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 col-md-12 text-center">
+          <div class="col-lg-4 col-md-8 text-center">
+            <div class="service-box">
+              <i class="fa fa-4x fa-minus text-primary sr-icons"></i>
+              <h3>ModernDock</h3>
+              <p class="text-muted">Enable the modern iPhone X dock for all older devices with a regular dock</p><br>
+
+              <p>iOS 11 - 12</p>
+              <small class="text-muted"><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://apt.noisyflake.com/&package=com.noisyflake.moderndock">My Repo</a>, Free</small><br>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-8 text-center">
             <div class="service-box">
               <i class="fa fa-4x fa-tablet text-primary sr-icons"></i>
               <h3>iPadStatusBar</h3>
-              <p class="text-muted">Enable the modern iPad status bar for all devices and allows hiding items in the status bar</p><br>
+              <p class="text-muted">Enable the modern iPad status bar for all devices, allows hiding status bar items</p><br>
 
               <p>iOS 12</p>
               <small class="text-muted"><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://apt.noisyflake.com/&package=com.noisyflake.ipadstatusbar">My Repo</a>, Free</small><br>
             </div>
           </div>
 
-          <div class="col-lg-6 col-md-12 text-center" style="margin-bottom: 50px">
+          <div class="col-lg-4 col-md-8 text-center" style="margin-bottom: 50px">
             <div class="service-box">
               <i class="fa fa-4x fa-share text-primary sr-icons"></i>
               <h3>ShortcutEnabler</h3>
