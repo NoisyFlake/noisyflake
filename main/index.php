@@ -68,6 +68,17 @@
         <div class="row">
           <div class="col-lg-4 col-md-8 text-center">
             <div class="service-box">
+              <i class="fa fa-4x fa-wifi text-primary sr-icons"></i>
+              <h3>WiFiCarrier</h3>
+              <p class="text-muted">Replace the carrier in the status bar with the current WiFi SSID</p><br>
+
+              <p>iOS 12</p>
+              <small class="text-muted"><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://apt.noisyflake.com/&package=com.noisyflake.wificarrier">My Repo</a>, Free</small><br>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-8 text-center">
+            <div class="service-box">
               <i class="fa fa-4x fa-minus text-primary sr-icons"></i>
               <h3>ModernDock</h3>
               <p class="text-muted">Enable the modern iPhone X dock for all older devices with a regular dock</p><br>
@@ -77,7 +88,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-8 text-center">
+          <div class="col-lg-4 col-md-8 text-center" style="margin-bottom: 50px">
             <div class="service-box">
               <i class="fa fa-4x fa-tablet text-primary sr-icons"></i>
               <h3>iPadStatusBar</h3>
@@ -88,7 +99,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-8 text-center" style="margin-bottom: 50px">
+          <div class="col-lg-4 col-md-8 text-center">
             <div class="service-box">
               <i class="fa fa-4x fa-share text-primary sr-icons"></i>
               <h3>ShortcutEnabler</h3>
@@ -101,7 +112,7 @@
 
 
 
-          <div class="col-lg-6 col-md-12 text-center" style='opacity: .6;'>
+          <div class="col-lg-4 col-md-8 text-center" style='opacity: .6;'>
             <div class="service-box">
               <i class="fa fa-4x fa-battery-3 text-primary sr-icons"></i>
               <h3>SmartLowPower</h3>
@@ -113,7 +124,7 @@
           </div>
 
 
-        <div class="col-lg-6 col-md-12 text-center" style="opacity: .6;">
+        <div class="col-lg-4 col-md-8 text-center" style="opacity: .6;">
           <div class="service-box">
             <i class="fa fa-4x fa-power-off text-primary sr-icons"></i>
             <h3>NoLSPowerDown</h3>
