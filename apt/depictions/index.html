@@ -20,6 +20,25 @@
 				color: #666;
 				font-size: 12px;
 			}
+
+			#showAllImages {
+				margin-bottom: 0;
+				cursor: pointer;
+			}
+
+			#hiddenImages {
+				display: none;
+			}
+
+			.ui.image {
+				text-align: center;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			#compatible, #incompatible {
+				display: none;
+			}
 		</style>
 
 		<script>
@@ -46,14 +65,16 @@
 				}
 
 				if (iOS[0] >= minVersion && iOS[0] <= maxVersion) {
-					$('#incompatible').hide();
+					$('#compatible').css('display', 'flex');
 				} else {
-					$('#compatible').hide();
+					$('#incompatible').css('display', 'flex');
 				}
-			} else {
-				$('#compatible').hide();
-				$('#incompatible').hide();
 			}
+		});
+
+		$(document).on('click', '#showAllImages', function() {
+			$('#hiddenImages').fadeIn('fast');
+			$('#showAllImages').hide();
 		});
 	</script>
 </head>
