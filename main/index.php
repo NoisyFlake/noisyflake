@@ -72,7 +72,7 @@
               <h3>Goodges2</h3>
               <p class="text-muted">Replace the notification badges with colored text labels. Successor to Goodges</p><br>
 
-              <p>iOS 11 - 12</p>
+              <p>iOS 10 - 12</p>
               <small class="text-muted"><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://apt.noisyflake.com/&package=com.noisyflake.goodges2">My Repo</a>, Free</small><br>
             </div>
           </div>
