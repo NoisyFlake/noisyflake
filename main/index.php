@@ -139,8 +139,8 @@
             <h3>NoLSPowerDown</h3>
             <p class="text-muted">Prevent shutdown on lockscreen</p><br>
 
-            <p>iOS 7 - 10</p>
-            <small class="text-muted"><a href="http://cydia.saurik.com/package/com.noisyflake.nolspowerdown/">BigBoss Repo</a>, Free</small><br>
+            <p>iOS 7 - 12</p>
+            <small class="text-muted"><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://apt.noisyflake.com/&package=com.noisyflake.nolspowerdown">My Repo</a>, Free</small><br>
           </div>
         </div>
 
