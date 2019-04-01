@@ -69,7 +69,7 @@
           <div class="col-lg-4 col-md-8 text-center">
             <div class="service-box">
               <i class="fa fa-4x fa-tags text-primary sr-icons"></i>
-              <h3>Goodges2</h3>
+              <h3>Goodges 2</h3>
               <p class="text-muted">Replace the notification badges with colored text labels. Successor to Goodges</p><br>
 
               <p>iOS 10 - 12</p>
@@ -121,28 +121,16 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-8 text-center" style="margin-bottom: 50px">
+          <div class="col-lg-4 col-md-8 text-center">
             <div class="service-box">
-              <i class="fa fa-4x fa-battery-3 text-primary sr-icons"></i>
-              <h3>SmartLowPower</h3>
-              <p class="text-muted">Automate Low Power and Airplane mode activation to save battery</p><br>
+              <i class="fa fa-4x fa-power-off text-primary sr-icons"></i>
+              <h3>NoLSPowerDown</h3>
+              <p class="text-muted">Prevent the shutdown screen from appearing on the lockscreen</p><br>
 
-              <p>iOS 9 - 10</p>
-              <small class="text-muted"><a href="http://cydia.saurik.com/package/com.noisyflake.smartlowpower/">BigBoss Repo</a>, Free</small><br>
+              <p>iOS 7 - 12</p>
+              <small class="text-muted"><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://apt.noisyflake.com/&package=com.noisyflake.nolspowerdown">My Repo</a>, Free</small><br>
             </div>
           </div>
-
-
-        <div class="col-lg-12 col-md-24 text-center">
-          <div class="service-box">
-            <i class="fa fa-4x fa-power-off text-primary sr-icons"></i>
-            <h3>NoLSPowerDown</h3>
-            <p class="text-muted">Prevent shutdown on lockscreen</p><br>
-
-            <p>iOS 7 - 12</p>
-            <small class="text-muted"><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://apt.noisyflake.com/&package=com.noisyflake.nolspowerdown">My Repo</a>, Free</small><br>
-          </div>
-        </div>
 
       </div>
 
