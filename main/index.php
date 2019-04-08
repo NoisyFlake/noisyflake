@@ -68,6 +68,17 @@
         <div class="row">
           <div class="col-lg-4 col-md-8 text-center">
             <div class="service-box">
+              <i class="fa fa-4x fa-fire text-primary sr-icons"></i>
+              <h3>Magma</h3>
+              <p class="text-muted">Color your Control Center</p><br>
+
+              <p>iOS 11 - 12</p>
+              <small class="text-muted"><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://apt.noisyflake.com/&package=com.noisyflake.magma">My Repo</a>, Free</small><br>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-8 text-center">
+            <div class="service-box">
               <i class="fa fa-4x fa-tags text-primary sr-icons"></i>
               <h3>Goodges 2</h3>
               <p class="text-muted">Replace the notification badges with colored text labels. Successor to Goodges</p><br>
@@ -121,7 +132,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-8 text-center">
+          <div class="col-lg-12 col-md-24 text-center">
             <div class="service-box">
               <i class="fa fa-4x fa-power-off text-primary sr-icons"></i>
               <h3>NoLSPowerDown</h3>
