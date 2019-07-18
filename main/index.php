@@ -8,15 +8,19 @@
 
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css">
 	<style type="text/css">
+		body {
+			background-color: #222;
+		}
+
 		p {
-			color: #999;
+			color: #777;
 			padding-top: 3rem;
 			font-family: monospace;
 			white-space: pre;
 		}
 
 		.reason {
-			color: #000;
+			color: #fff;
 		}
 	</style>
 </head>
