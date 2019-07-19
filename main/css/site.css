@@ -1,0 +1,27 @@
+body {
+	background-color: #1b1c1d;
+	color: #fff;
+	padding-top: 2em;
+	font-family: monospace;
+}
+
+.red {
+	color: #ff3b3b;
+}
+
+.green {
+	color: #00ff5e;
+}
+
+.blue {
+	color: #14b0ff;
+}
+
+i.blue.icon {
+	/* Overwrite the dark blue from Semantic UI */
+	color: #14b0ff!important;
+}
+
+.grey {
+	color: #999;
+}
