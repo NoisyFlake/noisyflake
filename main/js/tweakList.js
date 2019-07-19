@@ -23,12 +23,12 @@ class TweakList {
 		}
 
 		this.json.tweaks.forEach(tweak => {
-			let html = '<a href="https://repo.packix.com/package/' + tweak.package + '/"><i class="orange cube icon"></i></a>';
+			let html = '<a href="https://repo.packix.com/package/' + tweak.package + '/"  title="Get it on Packix"><i class="orange cube icon"></i></a>';
 
 			if (tweak.repo == null) {
-				html += '<i class="yellow lock icon"></i>'
+				html += '<i class="yellow lock icon" title="Closed source"></i>'
 			} else {
-				html += '<a href="https://github.com/NoisyFlake/' + tweak.repo + '"><i class="blue github icon"></i></a>';
+				html += '<a href="https://github.com/NoisyFlake/' + tweak.repo + '" title="View the Source Code"><i class="blue github icon"></i></a>';
 			}
 
 			html += ' <strong>' + tweak.name + '</strong>';
