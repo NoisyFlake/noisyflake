@@ -31,7 +31,7 @@ class TweakList {
 				html += '<a href="https://github.com/NoisyFlake/' + tweak.repo + '" title="View the Source Code"><i class="blue github icon"></i></a>';
 			}
 
-			html += ' <strong>' + tweak.name + '</strong>';
+			html += ' <strong><a href="https://repo.packix.com/package/' + tweak.package + '/"  class="white" title="Get it on Packix">' + tweak.name + '</a></strong>';
 			html += (tweak.price ? (" - " + tweak.price) : '');
 			html += '<br><span class="grey">' + tweak.description + '</span><br><br>';
 
