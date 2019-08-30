@@ -1,5 +1,12 @@
 {"tweaks":[
 	{
+		"name": "ClearDock12",
+		"price": null,
+		"description": "Hide the Dock Background",
+		"package": "com.noisyflake.cleardock12",
+		"repo": "ClearDock12"
+	},
+	{
 		"name": "NetworkManager",
 		"price": "$1.49",
 		"description": "Force 2G/3G/LTE connection from the Control Center",
