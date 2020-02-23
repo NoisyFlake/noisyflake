@@ -1,79 +1,114 @@
 {"tweaks":[
 	{
+		"name": "Magma Evo",
+		"price": "$2.49",
+		"description": "Redefine your Control Center",
+		"package": "com.noisyflake.magmaevo",
+		"repo": null,
+		"active": true
+	},
+	{
+		"name": "WindowHUD",
+		"price": null,
+		"description": "Use your screen as a HUD on your car windshield",
+		"package": "com.noisyflake.windowhud",
+		"repo": "WindowHUD",
+		"active": true
+	},
+	{
+		"name": "CozyBadges",
+		"price": "$1.99",
+		"description": "A cozy place for your badges",
+		"package": "com.noisyflake.cozybadges",
+		"repo": null,
+		"active": true
+	},
+	{
 		"name": "ClearDock12",
 		"price": null,
 		"description": "Hide the Dock Background",
 		"package": "com.noisyflake.cleardock12",
-		"repo": "ClearDock12"
+		"repo": "ClearDock12",
+		"active": true
 	},
 	{
 		"name": "NetworkManager",
 		"price": "$1.49",
 		"description": "Force 2G/3G/LTE connection from the Control Center",
 		"package": "com.noisyflake.networkmanager",
-		"repo": null
+		"repo": null,
+		"active": true
 	},
 	{
 		"name": "OhMyFlash",
 		"price": null,
 		"description": "Turn your flashlight off after a configurable amount of time",
 		"package": "com.noisyflake.ohmyflash",
-		"repo": "OhMyFlash"
+		"repo": "OhMyFlash",
+		"active": true
 	},
 	{
 		"name": "Magma Pro",
 		"price": "$1.99",
 		"description": "Change every color of your Control Center",
 		"package": "com.noisyflake.magmapro",
-		"repo": null
+		"repo": null,
+		"active": false
 	},
 	{
 		"name": "Magma",
 		"price": null,
 		"description": "Free version of Magma Pro",
 		"package": "com.noisyflake.magma",
-		"repo": "Magma"
+		"repo": "Magma",
+		"active": false
 	},
 	{
 		"name": "Goodges 2",
 		"price": null,
 		"description": "Replace notification badges with colorful labels",
 		"package": "com.noisyflake.goodges2",
-		"repo": "Goodges"
+		"repo": "Goodges",
+		"active": false
 	},
 	{
 		"name": "Shy Labels",
 		"price": null,
 		"description": "Hide App Labels when not scrolling",
 		"package": "com.noisyflake.shylabels",
-		"repo": "ShyLabels"
+		"repo": "ShyLabels",
+		"active": false
 	},
 	{
 		"name": "WiFiCarrier",
 		"price": null,
 		"description": "Display the WiFi name as carrier",
 		"package": "com.noisyflake.wificarrier",
-		"repo": "WiFiCarrier"
+		"repo": "WiFiCarrier",
+		"active": false
 	},
 	{
 		"name": "ModernDock",
 		"price": null,
 		"description": "Enable the native iPhone X dock on all devices",
 		"package": "com.noisyflake.moderndock",
-		"repo": "ModernDock"
+		"repo": "ModernDock",
+		"active": true
 	},
 	{
 		"name": "iPadStatusBar",
 		"price": null,
 		"description": "Enable the modern iPad status bar on all devices",
 		"package": "com.noisyflake.ipadstatusbar",
-		"repo": "iPadStatusBar"
+		"repo": "iPadStatusBar",
+		"active": false
 	},
 	{
 		"name": "ShortcutEnabler",
 		"price": null,
 		"description": "Enable and move around the iPhone X lockscreen shortcuts on all devices",
 		"package": "com.noisyflake.shortcutenabler",
-		"repo": "ShortcutEnabler"
+		"repo": "ShortcutEnabler",
+		"active": true
 	}
 ]}

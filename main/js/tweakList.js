@@ -3,7 +3,7 @@ class TweakList {
 	constructor() {
 		this.json = null;
 
-		let request = new XMLHttpRequest();
+		const request = new XMLHttpRequest();
 		request.open('GET', 'tweaks.json', true);
 
 		request.onload = function(e) {
@@ -15,7 +15,7 @@ class TweakList {
 	}
 
 	render() {
-		let tweakList = document.getElementById('tweakList');
+		const tweakList = document.getElementById('tweakList');
 
 		if (this.json == null) {
 			tweakList.innerHTML = 'Error: Unable to load tweak list';
@@ -23,17 +23,17 @@ class TweakList {
 		}
 
 		this.json.tweaks.forEach(tweak => {
-			let html = '<a href="https://repo.packix.com/package/' + tweak.package + '/"  title="Get it on Packix"><i class="orange cube icon"></i></a>';
+			let html = `<a href="https://repo.packix.com/package/${tweak.package}/"  title="Get it on Packix"><i class="orange cube icon"></i></a>`;
 
 			if (tweak.repo == null) {
 				html += '<i class="yellow lock icon" title="Closed source"></i>'
 			} else {
-				html += '<a href="https://github.com/NoisyFlake/' + tweak.repo + '" title="View the Source Code"><i class="blue github icon"></i></a>';
+				html += `<a href="https://github.com/NoisyFlake/${tweak.repo}" title="View the Source Code"><i class="blue github icon"></i></a>`;
 			}
 
-			html += ' <strong><a href="https://repo.packix.com/package/' + tweak.package + '/"  class="white" title="Get it on Packix">' + tweak.name + '</a></strong>';
+			html += ` <strong><a href="https://repo.packix.com/package/${tweak.package}/"  class="${tweak.active ? 'white' : 'disabled'}" title="Get it on Packix">${tweak.name}</a></strong>`;
 			html += (tweak.price ? (" - " + tweak.price) : '');
-			html += '<br><span class="grey">' + tweak.description + '</span><br><br>';
+			html += `<br><span class="grey">${tweak.description}</span><br><br>`;
 
 			tweakList.innerHTML += html;
 		});

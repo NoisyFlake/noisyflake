@@ -29,3 +29,8 @@ i.blue.icon {
 a.white {
 	color: #fff;
 }
+
+a.disabled {
+	color: #999;
+	text-decoration: line-through;
+}
