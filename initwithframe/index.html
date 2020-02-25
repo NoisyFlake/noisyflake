@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+	<title>initWithFrame:</title>
+
+	<style>
+		body {
+			background-color: #282c34;
+			color: #abb2bf;
+			font-family: monospace;
+			font-size: 14px;
+			font-weight: bold;
+		}
+
+		.container {
+  			max-width: 1200px;
+  			margin: auto;
+  			padding-top: 1em;
+		}
+
+		.cursor {
+			animation: 1s blink step-end infinite;
+		}
+
+		@keyframes "blink" {
+			from, to {
+				color: transparent;
+			}
+			50% {
+				color: #abb2bf;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		CGRect screen = [[UIScreen mainScreen] bounds];<br>
+		[super initWithFrame:screen];<span class="cursor">|</span>
+	</div>
+</body>
+</html>
