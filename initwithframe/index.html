@@ -6,41 +6,51 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
-	<title>initWithFrame:</title>
+	<title>initWithFrame:[]</title>
 
 	<style>
+		body,
 		html {
-			background-color: #000000;
-			color: #abb2bf;
+			background-color: #17131B;
+			color: #DBC8EA;
 			font-family: monospace;
-			/*font-size: 18px;*/
 			width: 100%;
-			margin-top: 4em;
+			height: 100%;
 		}
 
 		.outer {
 			width: 100%;
-  			text-align: center;
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
 		}
 
 		.inner {
-			display: inline-block;
+			max-width: 50%;
+			text-align: center;
+		}
+
+		.logo {
+			width: 250px;
 		}
 
 		.cursor {
 			font-size: 3em;
-			-webkit-animation: 1s blink step-end infinite;
-			animation: 1s blink step-end infinite;
+			animation: blink-animation 1s steps(3, start) infinite;
+			-webkit-animation: blink-animation 1s steps(3, start) infinite;
 			display: block;
-			margin-top: 2em;
+			margin-top: 1em;
 		}
 
-		@keyframes "blink" {
-			from, to {
-				color: transparent;
+		@keyframes blink-animation {
+			to {
+				visibility: hidden;
 			}
-			50% {
-				color: #abb2bf;
+		}
+		@-webkit-keyframes blink-animation {
+			to {
+				visibility: hidden;
 			}
 		}
 	</style>
@@ -49,9 +59,9 @@
 <body>
 	<div class="outer">
 		<div class="inner">
-			<img src="logo.png">
+			<p><img class="logo" src="logo.png" /></p>
+			<p class="cursor">|</p>
 		</div>
-		<span class="cursor">|</span>
 	</div>
 	</div>
 </body>
