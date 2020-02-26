@@ -16,7 +16,8 @@
 			font-family: monospace;
 			width: 100%;
 			height: 100%;
-			overflow: hidden;
+			padding: 0;
+			margin: 0;
 		}
 
 		.outer {
@@ -33,26 +34,27 @@
 		}
 
 		.logo {
-			width: 250px;
+			max-width: 250px;
+			width: 100%;
 		}
 
 		.cursor {
 			font-size: 3em;
 			animation: blink-animation 1s steps(3, start) infinite;
-			-webkit-animation: blink-animation 1s steps(3, start) infinite;
+  			-webkit-animation: blink-animation 1s steps(3, start) infinite;
 			display: block;
 			margin-top: 1em;
 		}
 
 		@keyframes blink-animation {
-			to {
-				visibility: hidden;
-			}
+  			to {
+    			visibility: hidden;
+  			}
 		}
 		@-webkit-keyframes blink-animation {
-			to {
-				visibility: hidden;
-			}
+  			to {
+    			visibility: hidden;
+  			}
 		}
 	</style>
 </head>
