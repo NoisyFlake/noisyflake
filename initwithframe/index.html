@@ -9,22 +9,30 @@
 	<title>initWithFrame:</title>
 
 	<style>
-		body {
-			background-color: #282c34;
+		html {
+			background-color: #000000;
 			color: #abb2bf;
 			font-family: monospace;
-			font-size: 14px;
-			font-weight: bold;
+			/*font-size: 18px;*/
+			width: 100%;
+			margin-top: 4em;
 		}
 
-		.container {
-  			max-width: 1200px;
-  			margin: auto;
-  			padding-top: 1em;
+		.outer {
+			width: 100%;
+  			text-align: center;
+		}
+
+		.inner {
+			display: inline-block;
 		}
 
 		.cursor {
+			font-size: 3em;
+			-webkit-animation: 1s blink step-end infinite;
 			animation: 1s blink step-end infinite;
+			display: block;
+			margin-top: 2em;
 		}
 
 		@keyframes "blink" {
@@ -39,9 +47,12 @@
 </head>
 
 <body>
-	<div class="container">
-		CGRect screen = [[UIScreen mainScreen] bounds];<br>
-		[super initWithFrame:screen];<span class="cursor">|</span>
+	<div class="outer">
+		<div class="inner">
+			<img src="logo.png">
+		</div>
+		<span class="cursor">|</span>
+	</div>
 	</div>
 </body>
 </html>
