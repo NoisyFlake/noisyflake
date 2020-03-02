@@ -1,0 +1,19 @@
+Package: com.noisyflake.magmaevo
+Version: 1.1.5
+Architecture: iphoneos-arm
+Maintainer: NoisyFlake
+Installed-Size: 596
+Depends: mobilesubstrate, firmware (>= 12.0), preferenceloader, com.opa334.ccsupport, org.thebigboss.libcolorpicker (>= 1.6.7)
+Conflicts: com.noisyflake.magma, com.noisyflake.magmapro
+Filename: get/com.noisyflake.magmaevo_1.1.5
+Depiction: https://repo.packix.com/package/com.noisyflake.magmaevo/
+Size: 96976
+Tag: cydia::commercial
+MD5sum: 51a2676048fef73c2521820775223fa4
+SHA1: dfd62d2c1e32c4d507de33e008a2f278ee665f70
+SHA256: 4b1c741f9d3a1f12195602cb7959f93776693e23ebb8bba93b08dc4be0179ea5
+Section: Tweaks
+Description: Redefine your Control Center
+Author: NoisyFlake
+Name: Magma Evo
+

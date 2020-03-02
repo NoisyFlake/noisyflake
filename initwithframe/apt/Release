@@ -1,0 +1,7 @@
+Origin: initWithFrame
+Label: initWithFrame
+Suite: stable
+Version: 1.0
+Architectures: iphoneos-arm
+Components: main
+Description: The latest releases from initWithFrame
