@@ -47,10 +47,12 @@ class Application {
                 }
 
             } else {
-                echo "Unable to find " . get_class($this->url_controller) . "/" . $this->url_action;
+                header("HTTP/1.0 404 Not Found");
+                echo "Page not found.";
             }
         } else {
-            echo "Unable to find " . get_class($this->url_controller) . "/" . $this->url_action;
+            header("HTTP/1.0 404 Not Found");
+            echo "Page not found.";
         }
     }
 
