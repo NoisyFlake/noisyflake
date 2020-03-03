@@ -1,0 +1,20 @@
+<div id="login">
+    <h3>initWithFrame</h3><br>
+
+    <form class="ui form" method="POST">
+        <div class="field">
+            <input type="text" placeholder="Username" name="username" required>
+        </div>
+        <div class="field">
+            <input type="password" placeholder="Password" name="password" required>
+        </div>
+        <div class="field">
+            <button type="submit" class="ui fluid purple button">Login</button>
+        </div>
+    </form>
+
+    <?php if (!empty($_POST)) { ?>
+        <br><div class="purpleText">Invalid username or password.</div>
+    <?php } ?>
+
+</div>
