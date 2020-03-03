@@ -1,6 +1,6 @@
 <?php
 
-$request = isset($_GET['request']) ? explode('_', $_GET['request']) : null;
+$request = isset($_GET['request']) ? explode('/', $_GET['request']) : null;
 
 if (count($request) !== 2) {
     header('HTTP/1.0 400 Bad Request');

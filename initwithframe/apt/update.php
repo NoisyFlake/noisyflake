@@ -1,19 +1,13 @@
 <?php
 
-echo "Removing Packages files... ";
-system("rm Packages.bz2 ");
-echo "Done!<br>";
+require_once('PackageParser.php');
 
-// echo "Creating new Packages file... ";
-// system("dpkg-scanpackages -m . /dev/null >Packages");
-// echo "Done!<br>";
+system("rm Packages Packages.bz2");
 
-// $file = file("Packages");
+$dpkg = shell_exec("dpkg-scanpackages -m .");
+$dpkg = explode("\n", $dpkg);
 
-// var_dump($file);
+$parser = new PackageParser($dpkg);
+$parser->writeModifiedFile();
 
-echo "Compressing new Packages file... ";
 system("bzip2 -k Packages");
-echo "Done!</br>";
-
-?>
