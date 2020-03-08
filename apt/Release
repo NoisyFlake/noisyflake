@@ -1,7 +1,7 @@
-Origin: NoisyFlake
-Label: NoisyFlake
+Origin: OUTDATED - REMOVE ME
+Label: OUTDATED - REMOVE ME
 Suite: stable
 Version: 1.0
 Architectures: iphoneos-arm
 Components: main
-Description: It's a repository, no need for a description though.
+Description: THIS REPOSITORY IS NOW DEPRECATED, REMOVE ME
