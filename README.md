@@ -3,12 +3,19 @@
 
 ---
 
-### 💻 What languages I am confident in
+### 📘 What languages I am confident in
 - Objective-C
 - Java
 - PHP
 - JavaScript
 - HTML / CSS
+
+### 💻 What devices I use for development
+- PC, Windows 10
+- MacBook Pro  2018, Monterey
+- iPhone 13 mini, 15.6RC
+- iPhone X, 15.4.1 (dora2ios)
+- iPhone 7, 14.8.1 (checkra1n)
 
 ### 📫 How to reach me
 - [Twitter](https://twitter.com/NoisyFlake)
