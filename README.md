@@ -14,8 +14,8 @@
 - PC, Windows 10
 - MacBook Pro  2018, Monterey
 - iPhone 13 mini, 15.6RC
-- iPhone X, 15.4.1 (dora2ios)
-- iPhone 7, 14.8.1 (checkra1n)
+- iPhone X, 16.2 (palera1n)
+- iPhone 7, 15.7.1 (palera1n)
 
 ### 📫 How to reach me
 - [Twitter](https://twitter.com/NoisyFlake)
@@ -23,4 +23,4 @@
 
 ---
 
-![NoisyFlakes GitHub stats](https://github-readme-stats.vercel.app/api?username=NoisyFlake&show_icons=true&theme=radical&count_private=true&bg_color=00000000)
+![NoisyFlakes GitHub stats](https://github-readme-stats.vercel.app/api?username=NoisyFlake&show_icons=true&theme=radical&count_private=true)
