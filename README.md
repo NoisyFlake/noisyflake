@@ -18,6 +18,7 @@
 - iPhone 7, 15.7.1 (palera1n)
 
 ### 📫 How to reach me
+- [Mastodon]([https://twitter.com/NoisyFlake](https://masto.ai/@noisyflake))
 - [Twitter](https://twitter.com/NoisyFlake)
 - [Reddit](https://reddit.com/u/NoisyFlake)
 
