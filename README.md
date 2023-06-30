@@ -1,5 +1,5 @@
-<h2 align="center">I'm NoisyFlake, a jailbreak tweak developer</h2>
-<p align="center">I do frontend development as a fulltime job and develop tweaks for jailbroken iOS devices in my free-time.<br>Sometimes I also do the occasional game modding and music production.</p>
+<h2 align="center">I'm NoisyFlake, an ex jailbreak tweak developer</h2>
+<p align="center">I do frontend development as a fulltime job and developed several tweaks for jailbroken iOS devices.<br>Sometimes I also do the occasional game modding and music production.</p>
 
 ---
 
@@ -20,7 +20,7 @@
 ### 📫 How to reach me
 - [Mastodon](https://masto.ai/@noisyflake)
 - [Twitter](https://twitter.com/NoisyFlake)
-- [Reddit](https://reddit.com/u/NoisyFlake)
+- [Lemmy](https://feddit.de/u/NoisyFlake)
 
 ---
 
