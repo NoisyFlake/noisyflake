@@ -18,9 +18,8 @@
 - iPhone 7, 15.7.1 (palera1n)
 
 ### 📫 How to reach me
-- [Mastodon](https://masto.ai/@noisyflake)
-- [Twitter](https://twitter.com/NoisyFlake)
 - [Lemmy](https://lemm.ee/u/NoisyFlake)
+- [Mastodon](https://masto.ai/@noisyflake)
 
 ---
 
