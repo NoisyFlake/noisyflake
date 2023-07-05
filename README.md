@@ -20,7 +20,7 @@
 ### 📫 How to reach me
 - [Mastodon](https://masto.ai/@noisyflake)
 - [Twitter](https://twitter.com/NoisyFlake)
-- [Lemmy](https://feddit.de/u/NoisyFlake)
+- [Lemmy](https://lemm.ee/u/NoisyFlake)
 
 ---
 
