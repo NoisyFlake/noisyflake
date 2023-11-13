@@ -3,19 +3,12 @@
 
 ---
 
-### 📘 What languages I am confident in
+### 📘 My languages
 - Objective-C
 - Java
 - PHP
 - JavaScript
 - HTML / CSS
-
-### 💻 What devices I use for development
-- PC, Windows 10
-- MacBook Pro  2018, Ventura
-- iPhone 13 mini, 15.6RC
-- iPhone X, 16.2 (palera1n)
-- iPhone 7, 15.7.1 (palera1n)
 
 ### 📫 How to reach me
 - [Lemmy](https://lemm.ee/u/NoisyFlake)
