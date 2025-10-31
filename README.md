@@ -8,11 +8,7 @@
 - Java
 - PHP
 - JavaScript
-- HTML / CSS
-
-### 📫 How to reach me
-- [Lemmy](https://lemm.ee/u/NoisyFlake)
-- [Mastodon](https://masto.ai/@noisyflake)
+- HTML + CSS
 
 ---
 
